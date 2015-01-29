@@ -22,6 +22,7 @@ Shareable.configure do |config|
   #config.ref=''
   #config.share='' # 'true' or 'false'. '' defaults to 'false'.
   #config.kid_directed_site='' # 'true' or 'false'. '' defaults to 'false'. Facebook assumes your site is not kid friendly.
+  #config.url = ''
 
   ###############
   ##google_plus
@@ -29,7 +30,7 @@ Shareable.configure do |config|
   #config.annotation='bubble' # 'none', 'bubble' or 'inline'. '' defaults to 'bubble'.
   #config.align='' # 'left' or 'right'. '' defaults to 'left'.
   #config.expand_to='' # comma separated list of 'top', 'right', 'bottom' and 'left'.
-  #config.callback='' 
+  #config.callback=''
   #config.onstartinteraction=''
   #config.onendinteraction=''
   #config.recommendations='false' # 'true' or 'false'. '' defaults to 'true'.

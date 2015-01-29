@@ -43,6 +43,7 @@ module Shareable
     config.ref=''
     config.share='' # 'true' or 'false'. '' defaults to 'false'.
     config.kid_directed_site='' # 'true' or 'false'. '' defaults to 'false'. Facebook assumes your site is not kid friendly.
+    config.url=''
 
     ##############
     #google_plus
@@ -75,7 +76,7 @@ module Shareable
     config.media=''
 
     ##############
-    #reddit 
+    #reddit
     ##############
     config.target='' # subreddit name, eg: 'rails'
     config.color=''
